@@ -1,0 +1,52 @@
+@import '../css/reset.css';
+.main-bg {
+  background-image: url('../img/bg.avif');
+  color: var(--white-color);
+  padding: 20px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-bg {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+.silver-bg {
+  background: var(--silver-color);
+  color: var(--primary-color);
+}
+
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+  text-align: center;
+  color: var(--white-color);
+}
+
+.menu-spacing {
+  height: 65px;
+}
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #afafaf;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 800px) {
+  .main-bg {
+    background-size: cover; 
+  }
+  .main-content {
+    max-width: 100%; 
+    padding: 5rem var(--gap); 
+  }
+}

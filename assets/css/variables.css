@@ -1,0 +1,10 @@
+@import '../css/reset.css';
+:root {
+  --primary-color: #0A1128;
+  --white-color: #FFFFFF;
+  --light-gray-color: #EEEEEE;
+  --secondary-color: crimson;
+  --gap: 3rem;
+  --gold-color: #bc9c6c;
+  --silver-color: #C0C0C0;
+}
